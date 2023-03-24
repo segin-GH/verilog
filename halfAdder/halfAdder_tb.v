@@ -5,7 +5,7 @@ module half_adder_tb();
     reg a, b;
     wire s, c;
 
-    half_adder_gate_level G1 (s, c, a, b);
+    half_adder_behavior_model G1 (s, c, a, b);
 
     initial begin
         $dumpfile("half_adder_tb.vcd");
