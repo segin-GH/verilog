@@ -14,7 +14,7 @@ sudo apt-get install gtkwave
 
 ## compiling the code
 
-### first write you .v file
+### first write you *.v file
 
 ```v
 
@@ -26,7 +26,7 @@ endmodule
 
 ```
 
-### then write you xx_tb.v
+### then write you *_tb.v
 
 ```v
 `include "and.v"
@@ -66,7 +66,7 @@ vvp <name of the ouput file>
 then to run in gtkwave
 
 ```
-gtkwave <name of the output file>
+gtkwave <run the file called *.vcd>
 ```
 
 
