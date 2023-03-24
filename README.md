@@ -14,7 +14,7 @@ sudo apt-get install gtkwave
 
 ## compiling the code
 
-first write you .v file
+### first write you .v file
 
 ```v
 
@@ -26,7 +26,7 @@ endmodule
 
 ```
 
-then write you xx_tb.v
+### then write you xx_tb.v
 
 ```v
 `include "and.v"
@@ -53,7 +53,7 @@ module and_tb();
 endmodule
 ```
 
-then to complie
+### then to complie
 
 ```
 iverilog -o <name of the ouput file> <name of you tb file>
@@ -61,7 +61,7 @@ iverilog -o <name of the ouput file> <name of you tb file>
 then to get gtkwave formate
 
 ```
-vvp < name of the ouput file>
+vvp <name of the ouput file>
 ```
 then to run in gtkwave
 
