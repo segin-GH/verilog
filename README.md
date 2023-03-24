@@ -53,17 +53,17 @@ module and_tb();
 endmodule
 ```
 
-### then to complie
+### Then to complie
 
 ```
 iverilog -o <name of the ouput file> <name of you tb file>
 ```
-then to get gtkwave formate
+### Then to get gtkwave formate
 
 ```
 vvp <name of the ouput file>
 ```
-then to run in gtkwave
+### Then to run in gtkwave
 
 ```
 gtkwave <run the file called *.vcd>
