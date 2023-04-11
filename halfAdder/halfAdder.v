@@ -23,8 +23,8 @@ input a, b;
 output s, c;
 
 always @ (a or b) begin
-    s = (a ^ b);
-    c = (a & b);
+    s = a ^ b;
+    c = a & b;
 end
 
 endmodule
