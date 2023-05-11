@@ -1,20 +1,20 @@
 # verilog
 ## Getting Statred
 
-install a compiler
+Install a compiler
 
 ```
 sudo apt-get install iverilog
 ```
-install a  wave viewer
+Install a  wave viewer
 
 ```
 sudo apt-get install gtkwave
 ```
 
-## compiling the code
+## Compiling the code
 
-### first write you *.v file
+### First write you *.v file
 
 ```v
 
@@ -26,7 +26,7 @@ endmodule
 
 ```
 
-### then write you *_tb.v
+### Then write you *_tb.v
 
 ```v
 `include "and.v"
@@ -68,5 +68,3 @@ vvp <name of the ouput file>
 ```
 gtkwave <run the file called *.vcd>
 ```
-
-
