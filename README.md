@@ -1,4 +1,4 @@
-# verilog
+# Verilog
 ## Getting Statred
 
 Install a compiler
